@@ -2,13 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
-body{
-    font-family: 'Montserrat',sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+
 /* Button Style */
 
-.btn{
+.btn {
     background-color: #fff;
     padding: 15px 60px;
     border: 2px solid black;
@@ -16,9 +17,10 @@ body{
     font-size: 1.2em;
     display: block;
     margin: 20px auto;
-    border-radius:10px ;
+    border-radius: 10px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #000;
     border: 2px solid rgb(104, 92, 92);
     color: rgb(255, 255, 255);
@@ -28,14 +30,14 @@ body{
 
 /* Container and Box Styles */
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.box{
+.box {
     width: 15%;
     height: 150px;
     background-color: salmon;
@@ -45,19 +47,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:20px ;
+    border-radius: 20px;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
 }
 
 /* Footer Styles */
 
-.copyright{
+.copyright {
     text-align: center;
 }
 
 /* Media Queries */
 
-@media only screen and (max-width:688px){
-    .box{
+@media only screen and (max-width:688px) {
+    .box {
         width: 40%;
     }
 }
